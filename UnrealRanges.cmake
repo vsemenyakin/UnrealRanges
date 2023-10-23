@@ -1,0 +1,33 @@
+set(UnrealRanges ${UnrealRanges}
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Basics.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_CommonNoUsing.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Common.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Common_Algorithm.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Common_Injection.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Common_Ranges.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Utils_UCast.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Utils_Types.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Utils.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Utils_Injected.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_UnrealNoUsing.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Unreal.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Unreal_Algorithm.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Unreal_Injection.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Unreal_Ranges.h
+   ${CMAKE_CURRENT_LIST_DIR}/UnrealRanges_Unreal_Utils.h
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Basics.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Common_Algorithm.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Common_Ranges.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Unreal_Algorithm.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Unreal_Ranges.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Unreal_Utils.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Utils.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Utils_Injected.h
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Utils_Injected.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Impl_Utils_UCast.inl
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Private_UnrealSpecific.h
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Private_Utils.h
+   ${CMAKE_CURRENT_LIST_DIR}/Private/UnrealRanges_Utils_Details.h
+)
+
+include_directories(${CMAKE_CURRENT_LIST_DIR})
